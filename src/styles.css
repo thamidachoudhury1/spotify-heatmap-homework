@@ -1,0 +1,160 @@
+.heatmap-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Flexbox for responsiveness */
+.responsive-heatmap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Adjust calendar grid to fit different devices */
+.react-calendar-heatmap {
+  width: 100%;
+  max-width: 1000px; /* Restrict max size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.color-empty {
+  fill: #ebedf0;
+}
+
+.color-scale-1 {
+  fill: #c6e48b;
+}
+
+.color-scale-2 {
+  fill: #7bc96f;
+}
+
+.color-scale-3 {
+  fill: #239a3b;
+}
+
+.color-scale-4 {
+  fill: #196127;
+}
+
+/* Ensure month spacing scales properly */
+.react-calendar-heatmap {
+  margin-bottom: 20px; /* Space between months */
+}
+
+/* Responsive font size for labels */
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.month-label {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .heatmap-container {
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .react-calendar-heatmap {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .month-label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  .month-label {
+    font-size: 0.8rem;
+  }
+
+  .react-calendar-heatmap {
+    margin-bottom: 10px;
+  }
+}
+
+.month-container {
+  margin-bottom: 20px;
+}
+
+.month-label {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.month-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px; /* Space between cells */
+}
+
+.day-cell {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ebedf0; /* Default empty color */
+  display: inline-block;
+}
+
+.color-empty {
+  background-color: #ebedf0;
+}
+
+.color-scale-1 {
+  background-color: #c6e48b;
+}
+
+.color-scale-2 {
+  background-color: #7bc96f;
+}
+
+.color-scale-3 {
+  background-color: #239a3b;
+}
+
+.color-scale-4 {
+  background-color: #196127;
+}
+
+@media (max-width: 768px) {
+  .day-cell {
+    width: 16px;
+    height: 16px;
+  }
+
+  .month-label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .day-cell {
+    width: 12px;
+    height: 12px;
+  }
+
+  .month-label {
+    font-size: 0.9rem;
+  }
+}
