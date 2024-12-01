@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spotify-heatmap-homework/static/css/main.30e71a23.css",
+    "main.js": "/spotify-heatmap-homework/static/js/main.f86cc61f.js",
+    "static/js/453.51aa2258.chunk.js": "/spotify-heatmap-homework/static/js/453.51aa2258.chunk.js",
+    "index.html": "/spotify-heatmap-homework/index.html",
+    "main.30e71a23.css.map": "/spotify-heatmap-homework/static/css/main.30e71a23.css.map",
+    "main.f86cc61f.js.map": "/spotify-heatmap-homework/static/js/main.f86cc61f.js.map",
+    "453.51aa2258.chunk.js.map": "/spotify-heatmap-homework/static/js/453.51aa2258.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e71a23.css",
+    "static/js/main.f86cc61f.js"
+  ]
+}
